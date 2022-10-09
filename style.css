@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #cccccc;
+}
+.logo {
+  width: 8rem;
+    height: 4rem;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 16px;
+}
+
+
+
+h1{
+  text-align: center;
+  font-size: 4rem;
+  /*font-family: Catamaran, sans-serif;*/
+  letter-spacing: 0.25rem;
+  background: linear-gradient(to left, #cccccc, #333333);
+  border-top-left-radius: 45px;
+  color: white;
+}
+h1:hover{
+  color: black;
+}
+h2{
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 2,8rem;
+  font-family: Catamaran, sans-serif;
+  letter-spacing: 0.25rem;
+  padding-bottom: 3rem;
+
+}
+h2:hover{
+  transform: scale(1.2);
+  color: white;
+
+}
+.kontejner {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  font-family: Catamaran, sans-serif;
+  letter-spacing: 0.25rem;
+  background: #4d4d4d;
+  border-top-left-radius: 70px;
+  background: linear-gradient(to right, #cccccc, #808080);
+}
+
+.banner-btn {
+  font-size: 1rem;
+  padding: 1rem 175rem;
+  margin: 1rem 1.75rem;
+  text-align: center;
+  margin-bottom: 230px;
+
+}
+.btn {
+  text-transform: uppercase;
+  background: #c61a09;
+  color: white;
+  padding: 0.75rem 1rem;
+  letter-spacing: 0.25rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+  
+
+/*saznajte vise*/
+.custom-container {
+  display: flex;
+  justify-content: center;
+  border: 0px solid #808080;
+  letter-spacing: 0.25rem;
+  font-family: Catamaran, sans-serif;
+
+
+}
+.box {
+  padding: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  background: #cccccc;
+  font-family: Catamaran, sans-serif;
+
+}
+.box-1 {
+  background: #999999;
+  border-top-left-radius: 45px;
+
+  
+}
+.box-2 {
+  background: #b3b3b3;
+  border-bottom-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+  
+}
+.box-3 {
+  background: #ebebeb;
+  border-top-right-radius: 45px;
+
+}
+span {
+  display: block;
+  color: #191919;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background: linear-gradient(to right, #c61a09, #ff4122);
+  border: 2px solid white;
+  border-radius: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  	width: 100%;
+  	/*position: absolute;*/
+  	background: linear-gradient(to right, #c61a09, #82190d);
+  	color: #fff;
+    bottom: 0;
+  	padding: 50px 0 30px;
+  	border-top-left-radius: 125px;
+  	font-size: 13px;
+  	line-height: 20px;
+
+  }
+  .row {  
+  	width: 85%;
+  	margin: auto;
+  	display: flex;
+  	flex-wrap: wrap;
+  	align-items: flex-start;
+  	justify-content: space-between;
+    padding-left: 20px;
+  }
+  .col {
+  	flex-basis: 25%;
+  	padding: 10px;
+  }
+  .logo-two {
+  	width: 100px;
+  	margin-bottom: 30px;
+    border-radius: 15px;
+  }
+  .col h3 {
+  	width: fit-content;
+  	margin-bottom: 40px;
+  	/*position: relative;*/
+  }
+ 
